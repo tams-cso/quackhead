@@ -1,0 +1,30 @@
+{
+  "name": "quackhead",
+  "version": "1.0.0",
+  "description": "The official TAMS CSO Discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "main": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tams-cso/quackhead.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "cso"
+  ],
+  "author": "Pranoy \"prydt\" Dutta",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tams-cso/quackhead/issues"
+  },
+  "homepage": "https://github.com/tams-cso/quackhead#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
