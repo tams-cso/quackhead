@@ -13,6 +13,7 @@ client.on('message', (msg) => {
 
     // TODO organize this better?
     // move functions to a seperate file
+    // move text to a seperate file
 
     switch (command) {
       case 'cso':
@@ -37,7 +38,34 @@ Anthony Zhou - Competitions Director
       case 'hacktams':
         msg.reply('hackTAMS is a biannual hackathon hosted by us! We host these events in order to introduce hackathons to the TAMS community in addition to providing yet another opportunity for students to try something new.')
         break
-      case '':
+      case 'english':
+        msg.reply(`
+English: All TAMS Professors readily give out A’s and the only difference between professors is teaching style.
+\`\`\`Markdown
+**Schoolfield** -- Teaches similarly to a high school English teacher. Grades on participation and essays.
+
+**Ibarra** -- Is known for releasing class early in addition to being really chill. Grades on discussion questions and essays.
+
+**Christian** -- A combination of Schoolfield and Ibarra (more structured but still can get off-topic). Grades based on a “grading contract” which makes every assignment a completion grade (essentially).
+
+**Steele** --Grades are mainly based on essays BUT you get infinite resubmissions in addition to great feedback. If you’re good at writing then this is the professor for you. She also gives a lot of extra credit and boosts :))\`\`\``)
+        break
+      case 'math':
+        msg.reply(`
+Math:
+\`\`\`Markdown
+# Precal Professors
+**Iaia** -- Makes the first test super hard and has a math project.
+**Brosovik** -- Gives lots of extra credit and is like a normal highschool math teacher
+**Naresh** -- Gives out notes for chapters and is really chill
+# Cal 1 Professors
+**Mann** --The best math professor NA. Very clear both in and out of class and has some of the most memorable lectures (Ants). Gives lots of points for showing work but doesn’t give out lots of extra credit.
+**Cherry** -- A new math professor. The only thing I know about him is that he taught high level math classes and so probably has high expectations for TAMS students.
+# Cal 2 Professors
+**Dulock** --I dunno bro\`\`\``)
+        break
+      case 'chem':
+        msg.reply('')
         break
     }
   }
